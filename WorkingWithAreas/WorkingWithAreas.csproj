@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
     <Compile Include="Areas\Admin\Controllers\HomeController.cs" />
+    <Compile Include="Areas\Support\SupportAreaRegistration.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -135,12 +136,17 @@
     <Content Include="Views\Web.config" />
     <Content Include="packages.config" />
     <Content Include="Areas\Admin\Views\Web.config" />
+    <Content Include="Areas\Admin\Views\Home\Index.cshtml" />
+    <Content Include="Areas\Support\Views\Web.config" />
     <None Include="readme.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Areas\Admin\Views\Shared\" />
+    <Folder Include="Areas\Support\Controllers\" />
+    <Folder Include="Areas\Support\Models\" />
+    <Folder Include="Areas\Support\Views\Shared\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

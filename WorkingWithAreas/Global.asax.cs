@@ -20,7 +20,8 @@ namespace WorkingWithAreas {
             routes.MapRoute(
                 "Default", // Route name
                 "{controller}/{action}/{id}", // URL with parameters
-                new { controller = "Home", action = "Index", id = UrlParameter.Optional } // Parameter defaults
+                new { controller = "Home", action = "Index", id = UrlParameter.Optional }, // Parameter defaults
+                new[] {"WorkingWithAreas.Controllers"} 
             );
 
         }
@@ -30,6 +31,7 @@ namespace WorkingWithAreas {
 
             RegisterGlobalFilters(GlobalFilters.Filters);
             RegisterRoutes(RouteTable.Routes);
+
         }
     }
 }
