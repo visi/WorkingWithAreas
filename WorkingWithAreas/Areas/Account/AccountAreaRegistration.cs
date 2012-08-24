@@ -1,17 +1,17 @@
 ﻿using System.Web.Mvc;
 
-namespace WorkingWithAreas.Areas.Support {
-    public class SupportAreaRegistration : AreaRegistration {
+namespace WorkingWithAreas.Areas.Account {
+    public class AccountAreaRegistration : AreaRegistration {
         public override string AreaName {
             get {
-                return "Support";
+                return "Account";
             }
         }
 
         public override void RegisterArea(AreaRegistrationContext context) {
             context.MapRoute(
-                "Support_default",
-                "Support/{controller}/{action}/{id}",
+                "Account_default",
+                "Account/{controller}/{action}/{id}",
                 new { action = "Index", id = UrlParameter.Optional }
             );
         }

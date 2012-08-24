@@ -1,0 +1,7 @@
+E:\Application\WorkingWithAreas\WorkingWithAreas.Admin\bin\WorkingWithAreas.Admin.dll
+E:\Application\WorkingWithAreas\WorkingWithAreas.Admin\bin\WorkingWithAreas.Admin.pdb
+E:\Application\WorkingWithAreas\WorkingWithAreas.Admin\bin\EntityFramework.dll
+E:\Application\WorkingWithAreas\WorkingWithAreas.Admin\bin\EntityFramework.xml
+E:\Application\WorkingWithAreas\WorkingWithAreas.Admin\obj\Debug\WorkingWithAreas.Admin.csprojResolveAssemblyReference.cache
+E:\Application\WorkingWithAreas\WorkingWithAreas.Admin\obj\Debug\WorkingWithAreas.Admin.dll
+E:\Application\WorkingWithAreas\WorkingWithAreas.Admin\obj\Debug\WorkingWithAreas.Admin.pdb
